@@ -14,8 +14,8 @@ public class exercicio9 {
         Scanner Input = new Scanner(System.in);
         int Input1 = Input.nextInt();
             if(Senha == Input1){
-            System.out.println("Senha correta");
-            System.out.close();
+                System.out.println("Senha correta");
+                System.out.close();
             }else{
                 for(int i = 4;Senha != Input1;i--){
                     System.out.println("Senha incorreta. Tente novamente. Quantidade max("+i+")");
@@ -32,7 +32,7 @@ public class exercicio9 {
                 }
             }
     }        
-        }
+}
              
 
         

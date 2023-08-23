@@ -11,6 +11,5 @@ public class exercicio6 {
     A = B;
     B = C;
     System.out.println("Variavel A aqui: " + A + " Variavel B aqui: " + B);
-       
     }
 }
